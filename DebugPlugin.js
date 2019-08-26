@@ -17,7 +17,7 @@ class DebugPlugin {
   apply(compiler) {
     compiler.hooks.entryOption.tap("vc-debug", (context, entry) => {
       const { enable } = this.options;
-      let vconslePath = "debugtool-webpack-plugin/vconsole.js";
+      let vconslePath = "debugtool-webpack-plugin-vit/vconsole.js";
       if (enable) {
         module.parent.paths.find(item => {
           let _vconslePath = path.join(item, vconslePath);
