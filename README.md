@@ -7,7 +7,7 @@ DebugPlugin 是一个基于[vconsole](https://github.com/Tencent/vConsole)的 we
 ### 安装
 
 ```
-npm install -D debugtool-webpack-plugin
+npm install -D debugtool-webpack-plugin-vit
 ```
 
 ### 使用
@@ -15,7 +15,7 @@ npm install -D debugtool-webpack-plugin
 将插件添加到 webpack 的配置文件中：
 
 ```
-var DebugPlugin = require('debugtool-webpack-plugin');
+var DebugPlugin = require('debugtool-webpack-plugin-vit');
 
 module.exports = {
   plugins: [
