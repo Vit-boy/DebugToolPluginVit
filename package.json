@@ -1,6 +1,6 @@
 {
   "name": "debugtool-webpack-plugin-vit",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "debugtool-webpack-plugin-vit",
   "main": "DebugPlugin.js",
   "scripts": {
@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/Vit-boy/DebugToolPluginVit#readme",
   "dependencies": {
-    "vconsole": "^3.3.4",
-    "webpack": "^3.6.0"
+    "vconsole": "^3.3.4"
+  },
+  "devDependencies": {
+    "webpack": "^4.39.3"
   }
 }
